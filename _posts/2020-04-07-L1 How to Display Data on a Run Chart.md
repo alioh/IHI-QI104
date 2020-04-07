@@ -18,8 +18,9 @@ The **key measure** ( the data upon which you will gauge your progress ) is the 
 ![](/IHI-QI104/img/L1-eq1.jpg)
 
 where:
- - N = Number of patients who leave ER without beign seen.
+ - N = Number of patients who leave ER without begin seen.
  - D = Total number of patients.
+
 The **aim** ( the overall goal of your improvement project ) is to get the percentage of leave without been seen by ER to bellow 1%.
 
 ## The Basic Elements of a Run Chart
@@ -31,14 +32,16 @@ In our previous example, lets say we have data of one year, the basic elements o
  4. **Title** for the chart.
  5. The **median** of our key measure.
  6. Any other information such is:
-	 - UCL (Upper control limit) is calculated by adding the average to 3 times the standard deviation.
-	 - LCL (Lower control limit) is calculated by subtracting the average to 3 times the standard deviation.
+	 - UCL (Upper control limit) is calculated by adding the average (median) to 3 times the standard deviation.
+	 - LCL (Lower control limit) is calculated by subtracting the average (median) to 3 times the standard deviation.
 	 - Labels to specific event that effected the result on a specific week.
 
-> **Note:** In excel, the **average** can be found using the function: =AVERAGE(column), and the **standard deviation** can be found with the function =STDEV(column). To get **UCL** the function will be:  
+> **Note:** 
+  In excel, the **average** can be found using the function: =AVERAGE(column), the **median** can be found using the function: =median(column), and the **standard deviation** can be found with the function =STDEV(column). To get **UCL** the function will be:  
 > =AVERAGE(column) + (STDEV(column) * 3 ) , and to get **LCL** the function will be =AVERAGE(column) - (STDEV(column) * 3 )
 
 an example of the result chart is:  
+
 ![](/IHI-QI104/img/L1-1.jpg)  
 
 excel file, with the data and chart, can be found [here](/IHI-QI104/xlsx/L1-1.xlsx).
@@ -50,11 +53,10 @@ excel file, with the data and chart, can be found [here](/IHI-QI104/xlsx/L1-1.xl
 **Goal Line** is a line to show our goal.
 
 This is how the previous chart looks like with annotations, baseline and goal line.  
+
 ![](/IHI-QI104/img/L1-2.jpg)  
 
 excel file, with the data and chart, can be found [here](/IHI-QI104/xlsx/L1-2.xlsx).
 
 ## Computer Programs for Run Charts
-Quick video on how to create run chart in excel
-
-[![](http://img.youtube.com/vi/lUp_TwMdj8k/0.jpg)](http://www.youtube.com/watch?v=lUp_TwMdj8k)
+[Click here](http://www.youtube.com/watch?v=lUp_TwMdj8k) to see a quick video on how to create run chart in excel.  
