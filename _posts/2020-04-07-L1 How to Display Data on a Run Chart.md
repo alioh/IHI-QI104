@@ -28,7 +28,7 @@ In our previous example, lets say we have data of one year, the basic elements o
  1. **Time** along the X axis.
  2. Our key measure **Number of patient left without been seen** along the Y axis.
  3. **Labels** on the X and Y axis.
- 4. **Title** for the graph.
+ 4. **Title** for the chart.
  5. The **median** of our key measure.
  6. Any other information such is:
 	 - UCL (Upper control limit) is calculated by adding the average to 3 times the standard deviation.
@@ -38,7 +38,7 @@ In our previous example, lets say we have data of one year, the basic elements o
 > **Note:** In excel, the **average** can be found using the function: =AVERAGE(column), and the **standard deviation** can be found with the function =STDEV(column). To get **UCL** the function will be:  
 > =AVERAGE(column) + (STDEV(column) * 3 ) , and to get **LCL** the function will be =AVERAGE(column) - (STDEV(column) * 3 )
 
-an example of the result graph is:  
+an example of the result chart is:  
 ![](/IHI-QI104/img/L1-1.jpg)  
 
 excel file, with the data and chart, can be found [here](/IHI-QI104/xlsx/L1-1.xlsx).
@@ -53,3 +53,8 @@ This is how the previous chart looks like with annotations, baseline and goal li
 ![](/IHI-QI104/img/L1-2.jpg)  
 
 excel file, with the data and chart, can be found [here](/IHI-QI104/xlsx/L1-2.xlsx).
+
+## Computer Programs for Run Charts
+Quick video on how to create run chart in excel
+
+[![](http://img.youtube.com/vi/lUp_TwMdj8k/0.jpg)](http://www.youtube.com/watch?v=lUp_TwMdj8k)
