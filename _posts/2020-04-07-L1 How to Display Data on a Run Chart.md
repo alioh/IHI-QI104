@@ -40,6 +40,6 @@ In our previous example, lets say we have data of one year, the basic elements o
 > **Note:** In excel, the **average** can be found using the function: =AVERAGE(coulmn), and the standard deviation can be found with the function =STDEV(coulmn). To get UCL the function will be:
 > =AVERAGE(column)+(STDEV(column) * 3 ) , and to get LCL the function will be =AVERAGE(column)-(STDEV(column) * 3 )
 
-an example of the result graph is:
+An example of the result graph is:
 ![](/img/L1-1.jpg)
 excel file, with the data and graph, can be found [here](/xlsx/L1-1.xlsx).
