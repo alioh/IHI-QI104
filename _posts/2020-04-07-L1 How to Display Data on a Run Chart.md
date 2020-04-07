@@ -1,5 +1,5 @@
 ---
-title: L1 How to Display Data on a Run Chart
+title: L1- How to Display Data on a Run Chart
 author: Ali Alohali
 date: 2020-04-07
 layout: post
@@ -15,7 +15,7 @@ Run chart is an effective way to show change over specific period of time.
 If a hospital gets complains about wait times in ER. As an imporevment team, we will need to come up with specific aim and plan for measuring to check the results as we do changes to fix the issues we have. 
 The **key measure** ( the data upon which you will gauge your progress ) is the percentage of patients that leaves ER without been seen every month. It can be calculated as follows:
 
-![](/IHI-QI104L1-eq1.jpg)
+![](/IHI-QI104/img/L1-eq1.jpg)
 
 where:
  - N = Number of patients who leave ER without beign seen.
@@ -39,7 +39,8 @@ In our previous example, lets say we have data of one year, the basic elements o
 > =AVERAGE(column)+(STDEV(column) * 3 ) , and to get LCL the function will be =AVERAGE(column)-(STDEV(column) * 3 )
 
 an example of the result graph is:  
-![](/IHI-QI104/img/L1-1.jpg)
+![](/IHI-QI104/img/L1-1.jpg)  
+
 excel file, with the data and chart, can be found [here](/IHI-QI104/xlsx/L1-1.xlsx).
 
 
@@ -49,5 +50,6 @@ excel file, with the data and chart, can be found [here](/IHI-QI104/xlsx/L1-1.xl
 **Goal Line** is a line to show our goal.
 
 This is how the previous chart looks like with annotations, baseline and goal line.  
-![](/IHI-QI104/img/L1-2.jpg)
+![](/IHI-QI104/img/L1-2.jpg)  
+
 excel file, with the data and chart, can be found [here](/IHI-QI104/xlsx/L1-2.xlsx).
