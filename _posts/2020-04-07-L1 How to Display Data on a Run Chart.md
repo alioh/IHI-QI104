@@ -1,12 +1,10 @@
 ---
-title: How to Display Data on a Run Chart
+title: L1 How to Display Data on a Run Chart
 author: Ali Alohali
 date: 2020-04-07
 layout: post
 ---
- 
 
-# L1: How to Display Data on a Run Chart
 
 ## Why You Need a Run Chart?
 
@@ -17,9 +15,8 @@ Run chart is an effective way to show change over specific period of time.
 If a hospital gets complains about wait times in ER. As an imporevment team, we will need to come up with specific aim and plan for measuring to check the results as we do changes to fix the issues we have. 
 The **key measure** ( the data upon which you will gauge your progress ) is the percentage of patients that leaves ER without been seen every month. It can be calculated as follows:
 
-$$
- \frac {N}{D} * 100
-$$
+![](/IHI-QI104L1-eq1.jpg)
+
 where:
  - N = Number of patients who leave ER without beign seen.
  - D = Total number of patients.
@@ -37,9 +34,20 @@ In our previous example, lets say we have data of one year, the basic elements o
 	 - UCL (Upper control limit) is calculated by adding the average to 3 times the standard deviation.
 	 - LCL (Lower control limit) is calculated by subtracting the average to 3 times the standard deviation.
 	 - Labels to specific event that effected the result on a specific week.
-> **Note:** In excel, the **average** can be found using the function: =AVERAGE(coulmn), and the standard deviation can be found with the function =STDEV(coulmn). To get UCL the function will be:
+
+> **Note:** In excel, the **average** can be found using the function: =AVERAGE(coulmn), and the standard deviation can be found with the function =STDEV(coulmn). To get UCL the function will be:  
 > =AVERAGE(column)+(STDEV(column) * 3 ) , and to get LCL the function will be =AVERAGE(column)-(STDEV(column) * 3 )
 
-An example of the result graph is:
-![](/img/L1-1.jpg)
-excel file, with the data and graph, can be found [here](/xlsx/L1-1.xlsx).
+an example of the result graph is:  
+![](/IHI-QI104/img/L1-1.jpg)
+excel file, with the data and chart, can be found [here](/IHI-QI104/xlsx/L1-1.xlsx).
+
+
+## Baselines, Goal Lines, and Other Annotations
+**Annotations** are comments we add to the chart. Add comments to show changes effected the run chart.
+**Base Line**  is a line that shows the preformance before the start of our test of imporovments. Baseline is the median of your measurements from the time prior to any specific tests of change or imporovment. We need at least five data points to create baseline median.
+**Goal Line** is a line to show our goal.
+
+This is how the previous chart looks like with annotations, baseline and goal line.  
+![](/IHI-QI104/img/L1-2.jpg)
+excel file, with the data and chart, can be found [here](/IHI-QI104/xlsx/L1-2.xlsx).
