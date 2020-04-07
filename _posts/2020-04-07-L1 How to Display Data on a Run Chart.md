@@ -32,11 +32,11 @@ In our previous example, lets say we have data of one year, the basic elements o
  4. **Title** for the chart.
  5. The **median** of our key measure.
  6. Any other information such is:
-	 - UCL (Upper control limit) is calculated by adding the average (median) to 3 times the standard deviation.
-	 - LCL (Lower control limit) is calculated by subtracting the average (median) to 3 times the standard deviation.
-	 - Labels to specific event that effected the result on a specific week.
+	 - **UCL** (Upper control limit) is calculated by adding the average (median) to 3 times the standard deviation.
+	 - **LCL** (Lower control limit) is calculated by subtracting the average (median) to 3 times the standard deviation.
+	 - **Annotations** to specific event that effected the result on a specific week.
 
-> **Note:** 
+> **Note:**  
   In excel, the **average** can be found using the function: =AVERAGE(column), the **median** can be found using the function: =median(column), and the **standard deviation** can be found with the function =STDEV(column). To get **UCL** the function will be:  
 > =AVERAGE(column) + (STDEV(column) * 3 ) , and to get **LCL** the function will be =AVERAGE(column) - (STDEV(column) * 3 )
 
