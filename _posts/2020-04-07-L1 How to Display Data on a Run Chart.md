@@ -4,7 +4,7 @@ author: Ali Alohali
 date: 2020-04-07
 layout: post
 ---
-
+ 
 
 # L1: How to Display Data on a Run Chart
 
