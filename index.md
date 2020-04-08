@@ -2,7 +2,7 @@
 layout: home
 ---
 
-The page contains my notes for QI 104: Interpreting Data: Run Charts, Control Charts, and Other Measurement Tools course by Institute for Healthcare Improvement.
+The page contains my notes for QI 104: Interpreting Data: Run Charts, Control Charts, and Other Measurement Tools course by [Institute for Healthcare Improvement](http://www.ihi.org/).
 
 The course is divided to three parts:  
  1. How to Display Data on a Run Chart.
