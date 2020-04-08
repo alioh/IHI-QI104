@@ -12,6 +12,8 @@ url:              ''
 baseurl:          '/IHI-QI104'
 rss:              RSS
 
+google_analytics: UA-134016492-1
+
 # markdown render engine.
 markdown:         kramdown
 kramdown:

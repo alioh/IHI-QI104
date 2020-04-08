@@ -37,8 +37,8 @@ In our previous example, lets say we have data of one year, the basic elements o
 	 - **Annotations** to specific event that effected the result on a specific week.
 
 > **Note:**  
-  In excel, the **average** can be found using the function: =AVERAGE(column), the **median** can be found using the function: =median(column), and the **standard deviation** can be found with the function =STDEV(column). To get **UCL** the function will be:  
-> =AVERAGE(column) + (STDEV(column) * 3 ) , and to get **LCL** the function will be =AVERAGE(column) - (STDEV(column) * 3 )
+  In excel, the **average** can be found using the function: `=AVERAGE(column)`, the **median** can be found using the function: `=median(column)`, and the **standard deviation** can be found with the function `=STDEV(column)`. To get **UCL** the function will be:  
+> `=AVERAGE(column) + (STDEV(column) * 3 )` , and to get **LCL** the function will be `=AVERAGE(column) - (STDEV(column) * 3 )`
 
 an example of the result chart is:  
 
