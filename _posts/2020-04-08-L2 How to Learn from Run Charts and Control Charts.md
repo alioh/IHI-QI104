@@ -62,8 +62,20 @@ If any of the previous explained rules occur, then we can say that there is a no
 
 ## Rule 3: Too Many or Too Few Runs
 In the previous part I wrote the upper and lower runs for charts with 10 to 15 data points. How they decided the numbers? the formula is:
- - Upper number of runs: 2 multiplied by **total number of data points** *(already defined before)* then divided by 3 . If you get result with decimals, round it **down**.  The excel equation will be `=ROUND(2*n/3,0)` where `n` is **total number of data points**.
- - Lower number of runs: can be found with the following excel the quation is: `=BINOM.INV(n,0.5,0.05)` where `n` is **total number of data points**.
+ - Upper number of runs: 2 multiplied by **total number of data points** *(already defined before)* then divided by 3. If you get result with decimals, round it **down**. The excel equation will be `=ROUND(2*n/3,0)` where `n` is **total number of data points**. Or `=ROUND(2*n/3+0.5,0)` *(this is from the course)*
+ - Lower number of runs: can be found with the following excel the equation is: `=BINOM.INV(n,0.5,0.05)` where `n` is **total number of data points**. Or `=ROUND(n/3-0.5,0)` *(this is from the course)*
 
 Check this [excel file](/IHI-QI104/xlsx/L2-4.xlsx) to see the result from 10 to 150 data points.
-###### it is recommended to use the previous table since it have the correct numbers. The functions are my finding after alot of search and it might not be correct.
+###### it is recommended to use the previous table since it have the correct numbers. The functions are approximations, you can use my function or the course function, they results are very close to the correct number.
+
+## How to Read a Shewhart Chart
+
+Shewhart Chart is also knows as Control Chart. We already so how it help us notice common cause and special cause variation. For control chart, we need to calculate the average, lower control limit and upper control limit. to calculate them in excel use the following function:
+-  **Average**: `=AVERAGE(column)`.
+-  **Upper control limit (UCL)**: `=AVERAGE(column) + (STDEV(column) * 3 )`.
+-  **Lower control limit (LCL)**: `=AVERAGE(column) - (STDEV(column) * 3 )`.
+
+![](/IHI-QI104/img/L2-5.jpg)
+
+###### excel file, with the data and chart, can be found [here](/IHI-QI104/xlsx/L2-5.xlsx).  
+here we can say that all the data that fall between LCL and UCL, and not part of the four non-random patterns, is random and not abnormal. When we see any data points outside LCL or UCL then it have special cause of variation. 
