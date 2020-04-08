@@ -43,20 +43,18 @@ In our previous example, lets say we have data of one year, the basic elements o
 an example of the result chart is:  
 
 ![](/IHI-QI104/img/L1-1.jpg)  
-
-excel file, with the data and chart, can be found [here](/IHI-QI104/xlsx/L1-1.xlsx).
+###### excel file, with the data and chart, can be found [here](/IHI-QI104/xlsx/L1-1.xlsx).
 
 
 ## Baselines, Goal Lines, and Other Annotations
-**Annotations** are comments we add to the chart. Add comments to show changes effected the run chart.
-**Base Line**  is a line that shows the performance before the start of our test of improvements. Baseline is the median of your measurements from the time prior to any specific tests of change or improvement. We need at least five data points to create baseline median.  
-**Goal Line** is a line to show our goal.
+ - **Annotations** are comments we add to the chart. Add comments to show changes effected the run chart.
+ - **Base Line**  is a line that shows the performance before the start of our test of improvements. Baseline is the median of your measurements from the time prior to any specific tests of change or improvement. We need at least five data points to create baseline median.  
+ - **Goal Line** is a line to show our goal.
 
 This is how the previous chart looks like with annotations, baseline and goal line.  
 
 ![](/IHI-QI104/img/L1-2.jpg)  
-
-excel file, with the data and chart, can be found [here](/IHI-QI104/xlsx/L1-2.xlsx).
+###### excel file, with the data and chart, can be found [here](/IHI-QI104/xlsx/L1-2.xlsx).
 
 ## Computer Programs for Run Charts
 [Click here](http://www.youtube.com/watch?v=lUp_TwMdj8k) to see a quick video on how to create run chart in excel.  
