@@ -20,7 +20,7 @@ Different charts can offer us new insight. But not all of them can apply to ever
 
 Histograms are special type of bar chart. Just like run charts, histograms help us see the variation in continuous data. 
 #### Example:
-Lets say we have records of ER visits, when they registered and when they were called to see the doctor. The final sum of minutes can be shown in the following table:
+Lets say we have records of ER visits, when they registered and when they were called to see the doctor, the result is the waiting time for the patients, we want to see how long they waited before they left the ER. The final sum of minutes can be shown in the following table:
 
 |Minutes (Time called - Time registered)|Number of patients|
 |:--:|:--:|
@@ -64,3 +64,17 @@ Now we look for the issues that have the biggest effect, the **vital few**, whic
 ![](/IHI-QI104/img/L3-2.jpg)
 
 ###### excel file, with the data and chart, can be found [here](/IHI-QI104/xlsx/L3-2.xlsx).
+
+
+## Scatter Plots
+
+Scatter charts helps us to find the relationship between to variables. 
+
+#### Example:
+Lets work on the same example before but I will add satisfaction to it, so each visitor will fill a form telling how satisfied he/she is. We collected this data and created the chart:
+
+![](/IHI-QI104/img/L3-3.jpg)
+
+###### excel file, with the data and chart, can be found [here](/IHI-QI104/xlsx/L3-3.xlsx).
+
+As we can see, as the time increasing, the patient satisfaction decrease, so we have a negative relationship between waiting time and satisfaction, other wise if the satisfaction increases we will say we have positive relationship. If the dots are showing random locations and you can't tell if it increasing or decreasing then we would say that there is no correlation.
