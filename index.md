@@ -10,3 +10,7 @@ The course is divided into three parts:
  3. Histograms, Pareto Charts, and Scatter Plots.
 
 The objectives of the course are to be able to draw run charts easily and be able to describe the charts and its variations. Be able to draw and explain control charts. To be able to apply the four rules to show non-random patterns on run charts. Lastly, to be able to decide and know what and how to use other charts such as histograms, scatter plots and Pareto chart.
+
+If you have any questions, corrections or suggestions please contact me at [Twitter](https://twitter.com/alioh) or [LinkedIn](https://www.linkedin.com/in/AliOh/).
+
+Thank you
