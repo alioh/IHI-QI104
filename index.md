@@ -2,9 +2,9 @@
 layout: home
 ---
 
-The page contains my notes for QI 104: Interpreting Data: Run Charts, Control Charts, and Other Measurement Tools course by [Institute for Healthcare Improvement](http://www.ihi.org/).
+The page contains my notes for QI 104: Interpreting Data: Run Charts, Control Charts, and Other Measurement Tools course by the [Institute for Healthcare Improvement](http://www.ihi.org/).
 
-The course is divided to three parts:  
+The course is divided into three parts:  
  1. How to Display Data on a Run Chart.
  2. How to Learn from Run Charts and Control Charts.
  3. Histograms, Pareto Charts, and Scatter Plots.
