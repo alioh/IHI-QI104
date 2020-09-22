@@ -72,8 +72,8 @@ Check this [excel file](/IHI-QI104/xlsx/L2-4.xlsx) to see the result from 10 to 
 
 Shewhart Chart is also knows as Control Chart. We already so how it help us notice common cause and special cause variation. For control chart, we need to calculate the average, lower control limit and upper control limit. to calculate them in excel use the following function:
 -  **Average**: `=AVERAGE(column)`
--  **Upper control limit (UCL)**: `=AVERAGE(column) + (STDEV(column) * 3 )`
--  **Lower control limit (LCL)**: `=AVERAGE(column) - (STDEV(column) * 3 )`
+-  **Upper control limit (UCL)**: `=AVERAGE(column) + (STDEV(column) * 2.66 )`
+-  **Lower control limit (LCL)**: `=AVERAGE(column) - (STDEV(column) * 2.66 )`
 
 ![](/IHI-QI104/img/L2-5.jpg)
 
