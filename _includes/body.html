@@ -14,8 +14,8 @@
         <div class="page-inner">
             <div id="book-search-results">
                 <div class="search-noresults">
-                    
-                    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+                    <section class="normal markdown-section">
+                        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 <!-- HorizontalAds -->
 <ins class="adsbygoogle"
      style="display:block"
@@ -26,9 +26,6 @@
 <script>
      (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
-                    
-                    <section class="normal markdown-section">
-                        
                         {% if page.title %}
                             <h1 id="{{ page.id }}">{{ page.title | escape }}</h1>
                         {% else %}
@@ -36,9 +33,8 @@
                         {% endif %}
 
                         {{ content }}
-                    </section>
-                    
-                    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+                        
+                        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 <!-- HorizontalAds -->
 <ins class="adsbygoogle"
      style="display:block"
@@ -49,6 +45,8 @@
 <script>
      (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
+                        
+                    </section>
                 </div>
 
                  <!-- {%- include search.html -%} -->
